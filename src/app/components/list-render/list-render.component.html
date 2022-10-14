@@ -1,0 +1,16 @@
+<div class="class">
+  <h2>Animals</h2>
+
+  <input type="text" [(ngModel)]="animalName" name="add-animal" placeholder="Informe o nome do animal" />
+  <button (click)="addAnimal()">Adicionar</button>
+
+  <ul style="list-style: none">
+    <li *ngFor="let animal of animals">
+      <p>Name: <a routerLink="/list/{{animal.id}}">{{ animal.name }}</a></p>
+      <p>Type: {{ animal.type }}</p>
+      <p *ngIf="showAgeAnimal">Age: {{ animal.age }}</p>
+      <button (click)="showAge()">Show Age</button>
+      <button (click)="removeAnimal(animal)">Excluir</button>
+    </li>
+  </ul>
+</div>

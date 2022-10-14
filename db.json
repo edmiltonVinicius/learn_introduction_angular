@@ -1,0 +1,22 @@
+{
+  "animals": [
+    {
+      "id": 0.7863601093302028,
+      "age": 10,
+      "type": "Dog",
+      "name": "sasa"
+    },
+    {
+      "id": 0.9836265559656592,
+      "age": 10,
+      "type": "Dog",
+      "name": "sasasasas"
+    },
+    {
+      "id": 0.7182689334157868,
+      "age": 10,
+      "type": "Dog",
+      "name": "sasasasasasas"
+    }
+  ]
+}

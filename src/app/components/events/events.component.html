@@ -1,0 +1,4 @@
+<div class="class">
+  <input *ngIf="show" type="text" (keyup)="handleChange($event)" />
+  <button (click)="toggleExibitionMessage()">{{ textTyped }}</button>
+</div>
